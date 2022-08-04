@@ -1,0 +1,135 @@
+/* comment to verify file is saving or not */
+body {
+  max-width: 95vw;
+  margin: 3px auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 25px;
+}
+/* navbar section start */
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+/*children of navbar-container */
+nav div img {
+  margin: auto;
+  height: 55px;
+}
+div .list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+div .list li {
+  font-size: 21px;
+}
+div .list li:first-child {
+  text-decoration: underline;
+}
+div .button-group {
+  position: absolute;
+  top: 14px;
+  right: 0;
+  display: flex;
+  gap: 15px;
+}
+.search-icon {
+  margin: 2px auto;
+  height: 5px;
+  cursor: pointer;
+}
+.nav-button {
+  margin-right: 20px;
+  margin-left: 0;
+  font-size: 24px;
+  color: #1f1f1f;
+  padding: 5px 20px;
+  font-weight: 400;
+  background-color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/*  */
+/* navbar section end */
+/* banner section start */
+.hero-container {
+  /* background-color: yellow; */
+  display: flex;
+  flex-diection: column;
+  height: 80vh;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10%;
+}
+/* span with square star globe class */
+span img[alt="square-pattern"] {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  top: 117px;
+  left: 145px;
+}
+.star {
+  position: absolute;
+  top: 15%;
+  right: 5%;
+}
+.globe {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+}
+/* div with image */
+img[alt="person-hero-iamge"] {
+  position: absolute;
+  height: 400px;
+  width: auto;
+  top: 105px;
+  left: 35px;
+}
+/* .hero-container-right contains data with buttons */
+.hero-container-right {
+  text-align: center;
+  margin-top: 100px;
+}
+.hero-heading {
+  font-size: 40px;
+  letter-spacing: 5px;
+  font-family: "serif";
+  padding-left: 0;
+}
+.hero-description {
+  padding: 0px 30px;
+  margin-top: 20px;
+}
+.button-email,
+.button-join {
+  border-radius: 10px;
+  font-size: 21px;
+  padding: 5px 15px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.button-join {
+  color: white;
+  background-color: #1f1f1f;
+}
+.contact-heading {
+  margin-top: 20px;
+  padding-top: 50px;
+}
+.icons span {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* banner section end */
