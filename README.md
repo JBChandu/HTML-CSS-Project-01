@@ -1,7 +1,7 @@
 # HTML and CSS Projects
----
+
 ## **Project-1: Style Street Landing Page**
----
+
 ![Badge for Project-1](https://img.shields.io/badge/HTML%20&%20CSS-Project_1-brightgreen "Style Street Landing Page")
 
 ![Badge with LCO and ineuron tagged](https://img.shields.io/badge/Ineuron.ai-LCO-brightgreen)
