@@ -18,4 +18,4 @@
 
 **Live Link :** [Deployed Link]()
 >### Preview :
-![Homepage screenshot]("./preview.png")
+![Homepage screenshot]("preview.png")
