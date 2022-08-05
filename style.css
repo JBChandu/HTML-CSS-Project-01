@@ -133,3 +133,58 @@ img[alt="person-hero-iamge"] {
   padding-right: 10px;
 }
 /* banner section end */
+/* media queries */
+@media only screen and (max-width: 850px) {
+  body {
+    /* background-color: blue; */
+  }
+  div .list {
+    display: none;
+  }
+  .hero-container-right {
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 28%;
+  }
+
+  span img[alt="square-pattern"] {
+    position: absolute;
+    height: 200px;
+    width: auto;
+    top: 15%;
+    left: 75px;
+  }
+
+  /* div with image */
+  img[alt="person-hero-iamge"] {
+    position: absolute;
+    height: 200px;
+    width: auto;
+    top: 12%;
+    left: 35px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .globe,
+  .star {
+    display: none;
+  }
+  button.nav-button {
+    margin-right: 20px;
+    margin-left: 0;
+    font-size: 15px;
+    color: #1f1f1f;
+    padding: 2px 8px;
+    font-weight: 400;
+    background-color: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .button-group .search-icon svg {
+    margin: 2px auto;
+    height: 20px;
+    cursor: pointer;
+  }
+}
